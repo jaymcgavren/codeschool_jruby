@@ -12,8 +12,11 @@ Open Draw.java for sample Java code you can convert to JRuby.  You can test Draw
 
 * Require Java classes with java_import
 * Create a Ruby subclass of JPanel:
+
 ** Allow other classes to set the X and Y drawing location
+
 ** Override this method: paintComponent(graphics)
+
 * Create a class that implements these methods from the MouseMotionListener Java interface:
 ** mouseDragged(event)
 ** mouseMoved(event) (just stub it but you have to declare it)
